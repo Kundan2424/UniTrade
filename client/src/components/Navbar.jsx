@@ -17,7 +17,8 @@ const Navbar = () => {
     { title: "Home", url: "/auction" },
     { title: "My Auction", url: `/auction/user/${user.userId}` },
     { title: "Create Auction", url: "/create-auction" },
-    { title: "Accounts", url: "#" },
+    { title: "Listings", url: "#" },
+    { title: "Services", url: "#" },
   ];
 
   // Open dropdown
@@ -73,7 +74,7 @@ const Navbar = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <span className="self-center text-2xl font-semibold whitespace-nowrap ">
-            Kipa Auction
+            UniTrade
           </span>
         </Link>
         <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

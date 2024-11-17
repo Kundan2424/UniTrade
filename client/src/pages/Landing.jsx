@@ -54,7 +54,7 @@ const Landing = () => {
               color: "#4B4453",
             }}
           >
-            Kipa Auction
+            UniTrade
           </Typography.Title>
 
           <Flex
@@ -84,7 +84,7 @@ const Landing = () => {
             </Button>
           </Typography.Text>
           <Drawer
-            title="Kipa Auction"
+            title="UniTrade"
             placement="right"
             closable={false}
             onClose={showDrawer}
@@ -119,11 +119,11 @@ const Landing = () => {
               <h1 className="text-3xl font-semibold text-gray-800 lg:text-4xl">
                 Bid Smart, Win Big: <br />
                 Your Gateway to <br />
-                <span className="text-blue-500 ">Online Auctions</span>
+                <span className="text-blue-500 ">Online Auctions/MarketPlace & Freelance</span>
               </h1>
 
               <p className="mt-3 text-gray-600 dark:text-gray-400">
-                Discover a new era of online auctions with our cutting-edge
+                Discover a new era of Online Auctions/MarketPlace & Freelance with our cutting-edge
                 platform designed to bring buyers and sellers together in a
                 seamless, secure, and engaging environment. Whether you are
                 looking to find great deals or sell unique items, our system
